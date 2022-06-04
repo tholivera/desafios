@@ -7,7 +7,7 @@ public class Desafio4 {
 	public static void main(String[] args) {
 
 		Scanner leia = new Scanner(System.in);
-		int numero, soma = 0;
+		int numero, aux = 0, soma = 0;
 
 		boolean feliz = false;
 
@@ -34,7 +34,7 @@ public class Desafio4 {
 			}
 
 			if (soma > 1) {
-				while (soma != 1) {
+				while (soma != 1 && aux < 11) {
 					String quadradoString = Double.toString(soma);
 					char[] quadradoArray = quadradoString.toCharArray();
 					int[] quadradoInteiro = new int[quadradoArray.length];
@@ -57,21 +57,27 @@ public class Desafio4 {
 					for (int i = 0; i < potenciaDois.length; i++) {
 						soma += potenciaDois[i];
 					}
-
+					aux++;
 				}
 
+				if (aux > 10) {
+					System.out.println("Looping infinito!");
+
+				} else if (soma == 1) {
+					
+					feliz = true;
+					System.out.println(feliz);
+				}
+
+			} else if (numero == 1 || soma == 1) {
+				
 				feliz = true;
 				System.out.println(feliz);
 			}
-
-		} else if (soma == 1 || numero == 1) {
-
-			feliz = true;
-			System.out.println(feliz);
-
 		} else {
 
 			System.out.println("Número inválido!");
+
 		}
 
 	}
