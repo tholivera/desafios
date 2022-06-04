@@ -32,7 +32,8 @@ public class Desafio1 {
 			menorPalavra = v3;
 		}
 
-		for (int j = 0; j <= menorPalavra; j++) {
+
+		for (int j = 0; j < menorPalavra; j++) {
 
 			if (palavra[0].charAt(j) == palavra[1].charAt(j) && palavra[0].charAt(j) == palavra[2].charAt(j)
 					&& palavra[1].charAt(j) == palavra[2].charAt(j)) {
@@ -48,4 +49,6 @@ public class Desafio1 {
 		}
 
 	}
+	
+	
 }
