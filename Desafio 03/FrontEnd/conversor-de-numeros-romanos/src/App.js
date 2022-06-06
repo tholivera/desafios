@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="container">
       <form>
-        <label htmlFor="buscar" >DIGITE O NÚMERO A SER CONVERTIDO
+        <label htmlFor="buscar">DIGITE UM NÚMERO ROMANO
           <input name="buscar" id="buscar" onChange={handleInputChange} />
         </label>
       </form>

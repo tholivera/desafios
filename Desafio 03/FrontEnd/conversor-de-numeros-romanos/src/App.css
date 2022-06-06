@@ -6,7 +6,7 @@
 
 body {
   color: #0000FF;
-  background-color: #FAA500;
+  background: linear-gradient(#FAA500, #faa7008c);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -26,8 +26,7 @@ body {
 
 .container form input {
   color:  inherit;
-  background-color: rgba( 255, 255, 255, 0);
-  padding: 0.2em;
+  background-color: rgba(211, 148, 13, 0.815);
   border: none;
   border-bottom: solid 2px (255, 255, 255, 0.2);
   border-radius: 8px 8px 0 0;
@@ -42,20 +41,11 @@ body {
   background-color: rgba( 255, 255, 255, 0.05);
 }
 
-.container .buscarResultados ul {
-  overflow: hidden;
-}
-
 .container .buscarResultados ul li {
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 2.5rem;
   color: rgba(255, 255, 255, 0.5);
-}
-
-.container label {
-  display: flex;
-  justify-content: center;
 }
 
 .container .buscarResultados ul li:hover {
