@@ -3,6 +3,7 @@
 ### Pré-requisitos para rodar a aplicação: 
 - Ter o Java JDK instalado
 - Ter o Eclipse IDE ou Intellij 
+- Spring Boot Suite
 
 ### Técnologias utilizadas: 
 - Java
