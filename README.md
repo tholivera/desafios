@@ -26,7 +26,9 @@ O desafio de programação é a terceira fase do processo de seleção para ingr
 Passo a passo no Eclipse
 
 Clique em: File => Open Projects from File System
+<div> 
 ![image](https://user-images.githubusercontent.com/91283098/172120564-f094ff5a-ba84-4f2b-9fa5-f5531185f1d9.png)
+</div>
 
 Informe o caminho da pasta => Finish
 Obs.: Importar apenas pasta com nome "Desafios 01, 02 e 04". 
