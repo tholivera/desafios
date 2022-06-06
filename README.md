@@ -101,6 +101,13 @@ Receba uma palavra e insira uma nova letra aleatória.
 ![image](https://user-images.githubusercontent.com/91283098/172122611-4d2a44af-7a59-4f15-a600-6509f487e426.png)
 </br>
 
+[**Desafio 03**](https://github.com/tholivera/desafios/tree/main/Desafio%2003)
+
+Digite um número romano e tenha ele transformado em número decimal.
+<br>
+![image](https://user-images.githubusercontent.com/91283098/172134061-0c5ee912-6658-452b-92e3-a28fedd89892.png)
+</br>
+
 [**Desafio 04**](https://github.com/tholivera/desafios/tree/main/Desafios%2001%2C%2002%20e%2004/src/desafio04)
 
 Com baseem alguns parâmetros predefinidos, descubra se um número é feliz ou não.
