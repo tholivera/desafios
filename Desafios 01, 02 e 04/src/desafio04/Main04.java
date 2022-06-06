@@ -72,12 +72,14 @@ public class Main04 {
 
 					feliz = true;
 					System.out.println(feliz);
+					System.out.println("Número feliz");
 				}
 
 			} else if (soma == 1) {
 
 				feliz = true;
 				System.out.println(feliz);
+				System.out.println("Número feliz");
 
 			}
 
